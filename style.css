@@ -9,6 +9,8 @@
 body {
   background: black;
   color: #fff;
+  min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,5 +24,10 @@ img {
 }
 
 header img {
-  height: 2rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 5rem;
 }
